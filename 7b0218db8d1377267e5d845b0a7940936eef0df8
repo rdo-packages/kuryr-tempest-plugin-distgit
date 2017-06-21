@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa7fdbe_4a5fe90e",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2017-06-21T14:40:08Z",
+      "side": 1,
+      "message": "you need to add python-reno as BuildRequires.",
+      "revId": "7b0218db8d1377267e5d845b0a7940936eef0df8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
