@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa7fdbe_aafe9569",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-06-22T07:18:16Z",
+      "side": 1,
+      "message": "Just one nit change what about moving long description to a global variable above and using that variable at each place something like that:\n%global common_desc \\\nThis package contains Tempest tests to cover the kuryr-kubernetes project.\\\nAdditionally it provides a plugin to automatically load these tests into Tempest.\n\nand use it %description\n%{common_desc}",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 81
+      },
+      "revId": "cb22ca794461b33214e057d87d97682eb2cc39e9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_eaf7bd8a",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-06-22T07:18:16Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 81
+      },
+      "revId": "cb22ca794461b33214e057d87d97682eb2cc39e9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_0af5e182",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-06-22T07:18:16Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 81
+      },
+      "revId": "cb22ca794461b33214e057d87d97682eb2cc39e9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_2af2a59a",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-06-22T07:18:16Z",
+      "side": 1,
+      "message": "Include %docs README.rst",
+      "revId": "cb22ca794461b33214e057d87d97682eb2cc39e9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa7fdbe_4aefe9b0",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-06-22T07:18:16Z",
+      "side": 1,
+      "message": "Include %docs README.rst",
+      "revId": "cb22ca794461b33214e057d87d97682eb2cc39e9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
