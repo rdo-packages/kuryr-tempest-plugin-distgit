@@ -137,6 +137,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_b0042d16",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-08-28T12:44:09Z",
+      "side": 0,
+      "message": "Oh! Sorry, I didn\u0027t realize it was a runtime req. It makes sense to remove it, then.",
+      "parentUuid": "5a890539_7d2c5eac",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 29
+      },
+      "revId": "0a6bf4194a5fe117f5517996297e85815940f66a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a890539_7d553e1c",
         "filename": "python-kuryr-tests-tempest.spec",
         "patchSetId": 3
