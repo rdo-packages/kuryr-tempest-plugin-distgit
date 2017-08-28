@@ -38,12 +38,11 @@ BuildRequires:  openstack-macros
 BuildRequires:  python2-reno
 
 Requires:   python-pbr
-Requires:   python-setuptools
 Requires:   python-six  >= 1.9.0
-Requires:   python-tempest >= 1:12.2.0
+Requires:   python-tempest >= 1:16.1.0
 Requires:   python-testrepository
 Requires:   python-oslotest >= 1.10.0
-Requires:   python-os-testr
+Requires:   python-os-testr >= 0.8.0
 Requires:   python-testtools
 Requires:   python-kubernetes
 # NOTE: 2.0.0 is not yet available in RDO repos. will specify version when
