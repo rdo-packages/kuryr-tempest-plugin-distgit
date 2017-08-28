@@ -35,15 +35,13 @@ BuildRequires:  python-pbr
 BuildRequires:  python-setuptools
 BuildRequires:  git
 BuildRequires:  openstack-macros
-BuildRequires:  python2-reno
 
 Requires:   python-pbr
-Requires:   python-setuptools
 Requires:   python-six  >= 1.9.0
 Requires:   python-tempest >= 1:12.2.0
 Requires:   python-testrepository
 Requires:   python-oslotest >= 1.10.0
-Requires:   python-os-testr
+Requires:   python-os-testr >= 0.8.0
 Requires:   python-testtools
 Requires:   python-kubernetes
 # NOTE: 2.0.0 is not yet available in RDO repos. will specify version when
@@ -71,15 +69,13 @@ Summary: %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
-BuildRequires:  python3-reno
 
 Requires:   python3-pbr
-Requires:   python3-setuptools
 Requires:   python3-six  >= 1.9.0
 #Requires:   python3-tempest >= 1:12.2.0
 Requires:   python3-testrepository
 Requires:   python3-oslotest >= 1.10.0
-Requires:   python3-os-testr
+Requires:   python3-os-testr >= 0.8.0
 Requires:   python3-testtools
 #Requires:   python3-kubernetes
 # There are no python3 packages yet for the commented ones.
