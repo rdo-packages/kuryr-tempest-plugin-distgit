@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_5d2fa2a1",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-08-28T12:37:26Z",
+      "side": 0,
+      "message": "Sorry, removed by Mistake",
+      "parentUuid": "5a890539_5d588256",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 28
+      },
+      "revId": "0a6bf4194a5fe117f5517996297e85815940f66a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a890539_9d310a0e",
         "filename": "python-kuryr-tests-tempest.spec",
         "patchSetId": 3
@@ -89,6 +113,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_7d2c5eac",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-08-28T12:37:26Z",
+      "side": 0,
+      "message": "setuptools is not a runtime requirement, so removed.",
+      "parentUuid": "5a890539_9d310a0e",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 29
+      },
+      "revId": "0a6bf4194a5fe117f5517996297e85815940f66a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a890539_7d553e1c",
         "filename": "python-kuryr-tests-tempest.spec",
         "patchSetId": 3
@@ -112,6 +160,30 @@
     },
     {
       "key": {
+        "uuid": "5a890539_bd1de675",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-08-28T12:37:26Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "5a890539_7d553e1c",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 28
+      },
+      "revId": "0a6bf4194a5fe117f5517996297e85815940f66a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a890539_bd36c601",
         "filename": "python-kuryr-tests-tempest.spec",
         "patchSetId": 3
@@ -123,6 +195,30 @@
       "writtenOn": "2017-08-28T12:20:01Z",
       "side": 0,
       "message": "ditto",
+      "range": {
+        "startLine": 77,
+        "startChar": 20,
+        "endLine": 77,
+        "endChar": 30
+      },
+      "revId": "0a6bf4194a5fe117f5517996297e85815940f66a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_dd12b261",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-08-28T12:37:26Z",
+      "side": 0,
+      "message": "setuptools is not a runtime requirement, so removed.",
+      "parentUuid": "5a890539_bd36c601",
       "range": {
         "startLine": 77,
         "startChar": 20,
