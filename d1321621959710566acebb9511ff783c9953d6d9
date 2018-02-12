@@ -22,6 +22,30 @@
       "revId": "d1321621959710566acebb9511ff783c9953d6d9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aaa499b_58068521",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-02-12T09:39:22Z",
+      "side": 1,
+      "message": "In CBS it is https://github.com/redhat-openstack/rdoinfo/blob/master/deps.yml#L1335 python-kubernetes-4.0.0-1.el7 and same in https://koji.fedoraproject.org/koji/buildinfo?buildID\u003d1022778 fedora 28",
+      "parentUuid": "7aaa499b_582fa5a1",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 39
+      },
+      "revId": "d1321621959710566acebb9511ff783c9953d6d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
