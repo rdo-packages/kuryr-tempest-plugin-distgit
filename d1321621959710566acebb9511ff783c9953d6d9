@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aaa499b_582fa5a1",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 77
+      },
+      "writtenOn": "2018-02-12T09:36:02Z",
+      "side": 1,
+      "message": "Are you sure this even exists? I\u0027ve been just checking on F27 and...:\nAvailable Packages\nName         : python3-kubernetes\nVersion      : 2.0.0",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 39
+      },
+      "revId": "d1321621959710566acebb9511ff783c9953d6d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
