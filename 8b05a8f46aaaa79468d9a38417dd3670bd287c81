@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aaa499b_d89e1507",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 77
+      },
+      "writtenOn": "2018-02-12T08:52:15Z",
+      "side": 1,
+      "message": "Any reason why are you moving these packages from the latter section?",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 32
+      },
+      "revId": "8b05a8f46aaaa79468d9a38417dd3670bd287c81",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aaa499b_18959de3",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 77
+      },
+      "writtenOn": "2018-02-12T08:52:15Z",
+      "side": 1,
+      "message": "Wouldn\u0027t this be python 3???",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 39
+      },
+      "revId": "8b05a8f46aaaa79468d9a38417dd3670bd287c81",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
