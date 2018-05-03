@@ -39,13 +39,13 @@ BuildRequires:  python2-setuptools
 BuildRequires:  python2-reno
 
 Requires:   python2-pbr >= 2.0.0
-Requires:   python2-six  >= 1.9.0
-Requires:   python2-tempest >= 1:17.2.0
-Requires:   python2-testrepository >= 0.0.20
-Requires:   python2-oslotest >= 1.10.0
-Requires:   python2-os-testr >= 0.8.0
-Requires:   python2-testtools >= 1.8.0
-Requires:   python2-kubernetes >= 4.0.0
+Requires:   python2-six  >= 1.10.0
+Requires:   python2-tempest >= 1:17.1.0
+Requires:   python2-testrepository >= 0.0.18
+Requires:   python2-oslotest >= 3.2.0
+Requires:   python2-os-testr >= 1.0.0
+Requires:   python2-testtools >= 2.2.0
+Requires:   python2-kubernetes >= 5.0.0
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
@@ -71,13 +71,13 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-reno
 
 Requires:   python3-pbr >= 2.0.0
-Requires:   python3-six  >= 1.9.0
-Requires:   python3-tempest >= 1:17.2.0
-Requires:   python3-testrepository >= 0.0.20
-Requires:   python3-oslotest >= 1.10.0
-Requires:   python3-os-testr >= 0.8.0
-Requires:   python3-testtools >= 1.8.0
-Requires:   python3-kubernetes >= 4.0.0
+Requires:   python3-six  >= 1.10.0
+Requires:   python3-tempest >= 1:17.1.0
+Requires:   python3-testrepository >= 0.0.18
+Requires:   python3-oslotest >= 3.2.0
+Requires:   python3-os-testr >= 1.0.0
+Requires:   python3-testtools >= 2.2.0
+Requires:   python3-kubernetes >= 5.0.0
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
