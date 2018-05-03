@@ -18,7 +18,7 @@ This package contains Tempest tests to cover the kuryr-kubernetes project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.0.1
+Version:    0.1.0
 Release:    0.1%{?alphatag}%{?dist}
 Summary:    Tempest Integration of Kuryr and Kuryr-Kubernetes
 License:    ASL 2.0
@@ -135,5 +135,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu May 03 2018 Jon Schlueter <jschluet@redhat.com> 0.1.0-0.1.952b1bcgit
+- Update Version to 0.1.0 to reflect tag in upstream (still same githash)
+
 * Mon Feb 19 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.952b1bcbgit
 - Update to pre-release 0.0.1 (952b1bcbb1ae7abe0b8897b21a2be4cca3913223)
