@@ -93,6 +93,29 @@
       "revId": "d4c4932583bedf26b132519b61a06f25ca670400",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_622067f8",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-05-04T11:12:08Z",
+      "side": 1,
+      "message": "I\u0027ll update python-kubernetes in fedora and rebuild it.",
+      "range": {
+        "startLine": 48,
+        "startChar": 34,
+        "endLine": 48,
+        "endChar": 39
+      },
+      "revId": "d4c4932583bedf26b132519b61a06f25ca670400",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
