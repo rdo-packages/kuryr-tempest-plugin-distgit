@@ -1,8 +1,4 @@
-%{!?upstream_version: %global upstream_version %{commit}}
-%global commit 952b1bcbb1ae7abe0b8897b21a2be4cca3913223
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-# DO NOT REMOVE ALPHATAG
-%global alphatag .%{shortcommit}git
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global service kuryr
 %global plugin kuryr-tempest-plugin
@@ -18,13 +14,13 @@ This package contains Tempest tests to cover the kuryr-kubernetes project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Version:    0.2.0
+Release:    1%{?dist}
 Summary:    Tempest Integration of Kuryr and Kuryr-Kubernetes
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
 
-Source0:    http://github.com/openstack/%{plugin}/archive/%{commit}.tar.gz#/%{plugin}-%{shortcommit}.tar.gz
+Source0:    https://tarballs.openstack.org/%{project}/%{library}-%{upstream_version}.tar.gz
 
 BuildArch:  noarch
 
@@ -135,5 +131,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Wed May 09 2018 RDO <dev@lists.rdoproject.org> 0.2.0-1
+- Update to 0.2.0
+
 * Mon Feb 19 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.952b1bcbgit
 - Update to pre-release 0.0.1 (952b1bcbb1ae7abe0b8897b21a2be4cca3913223)
