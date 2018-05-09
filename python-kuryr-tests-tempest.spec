@@ -18,8 +18,8 @@ This package contains Tempest tests to cover the kuryr-kubernetes project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    0.0.1
-Release:    0.1%{?alphatag}%{?dist}
+Version:    0.2.0
+Release:    1%{?alphatag}%{?dist}
 Summary:    Tempest Integration of Kuryr and Kuryr-Kubernetes
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -135,5 +135,8 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Wed May 09 2018 RDO <dev@lists.rdoproject.org> 0.2.0-1.952b1bcgit
+- Update to 0.2.0
+
 * Mon Feb 19 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.1.952b1bcbgit
 - Update to pre-release 0.0.1 (952b1bcbb1ae7abe0b8897b21a2be4cca3913223)
