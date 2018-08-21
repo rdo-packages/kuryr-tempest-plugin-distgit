@@ -38,16 +38,13 @@ BuildRequires:  openstack-macros
 BuildRequires:  python2-reno
 
 Requires:   python-pbr
-Requires:   python-six  >= 1.9.0
-Requires:   python-tempest >= 1:12.2.0
+Requires:   python-six  >= 1.10.0
+Requires:   python-tempest >= 1:18.0.0
 Requires:   python-testrepository
-Requires:   python-oslotest >= 1.10.0
-Requires:   python-os-testr >= 0.8.0
+Requires:   python-oslotest >= 3.2.0
+Requires:   python-os-testr >= 1.0.0
 Requires:   python-testtools
 Requires:   python-kubernetes
-# NOTE: 2.0.0 is not yet available in RDO repos. will specify version when
-# that's done.
-# Requires:   python-kubernetes >= 2.0.0
 
 %description -n python2-%{service}-tests-tempest
 %{common_desc}
@@ -73,14 +70,13 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-reno
 
 Requires:   python3-pbr
-Requires:   python3-six  >= 1.9.0
-#Requires:   python3-tempest >= 1:12.2.0
+Requires:   python3-six  >= 1.10.0
+Requires:   python3-tempest >= 1:18.0.0
 Requires:   python3-testrepository
-Requires:   python3-oslotest >= 1.10.0
-Requires:   python3-os-testr >= 0.8.0
+Requires:   python3-oslotest >= 3.2.0
+Requires:   python3-os-testr >= 1.0.0
 Requires:   python3-testtools
-#Requires:   python3-kubernetes
-# There are no python3 packages yet for the commented ones.
+Requires:   python3-kubernetes
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
