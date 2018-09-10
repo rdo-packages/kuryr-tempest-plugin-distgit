@@ -58,7 +58,7 @@ BuildRequires:  python2-sphinx
 BuildRequires:  python2-oslo-sphinx
 
 %description -n python-%{service}-tests-tempest-doc
-It contains the documentation for the example tempest tests.
+It contains the documentation for the kuryr tempest plugin.
 %endif
 
 %if 0%{?with_python3}
