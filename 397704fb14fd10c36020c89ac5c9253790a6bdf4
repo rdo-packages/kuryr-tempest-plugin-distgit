@@ -22,6 +22,30 @@
       "revId": "397704fb14fd10c36020c89ac5c9253790a6bdf4",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17dbd004_0e3f955a",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2019-04-01T11:33:06Z",
+      "side": 1,
+      "message": "There is no 3.26.0 build set setted higher\nname: python-oslo-concurrency\nproject: oslo-concurrency\nconf: rpmfactory-lib\nupstream: https://git.openstack.org/openstack/oslo.concurrency\npatches: http://review.rdoproject.org/r/p/openstack/oslo-concurrency.git\ndistgit: https://github.com/rdo-packages/oslo-concurrency-distgit.git\nbuildsys-tags:\n  cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.1-1.el7\n  cloud7-openstack-ocata-testing: python-oslo-concurrency-3.18.1-1.el7\n  cloud7-openstack-pike-release: python-oslo-concurrency-3.21.1-1.el7\n  cloud7-openstack-pike-testing: python-oslo-concurrency-3.21.1-1.el7\n  cloud7-openstack-queens-release: python-oslo-concurrency-3.25.1-1.el7\n  cloud7-openstack-queens-testing: python-oslo-concurrency-3.25.1-1.el7\n  cloud7-openstack-rocky-release: python-oslo-concurrency-3.27.0-1.el7\n  cloud7-openstack-rocky-testing: python-oslo-concurrency-3.27.0-1.el7\nmaster-distgit: https://github.com/rdo-packages/oslo-concurrency-distgit.git",
+      "parentUuid": "c658f591_a1f29f94",
+      "range": {
+        "startLine": 57,
+        "startChar": 47,
+        "endLine": 57,
+        "endChar": 53
+      },
+      "revId": "397704fb14fd10c36020c89ac5c9253790a6bdf4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
