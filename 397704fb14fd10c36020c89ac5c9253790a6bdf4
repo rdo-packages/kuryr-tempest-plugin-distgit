@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c658f591_a1f29f94",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-04-01T11:27:05Z",
+      "side": 1,
+      "message": "as per requirements.txt 3.26.0: https://github.com/openstack/kuryr-tempest-plugin/blob/master/requirements.txt#L15, any reason to set higher version.",
+      "range": {
+        "startLine": 57,
+        "startChar": 47,
+        "endLine": 57,
+        "endChar": 53
+      },
+      "revId": "397704fb14fd10c36020c89ac5c9253790a6bdf4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
