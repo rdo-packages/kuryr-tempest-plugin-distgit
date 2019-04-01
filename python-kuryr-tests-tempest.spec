@@ -54,6 +54,7 @@ Requires:   python%{pyver}-os-testr >= 0.8.0
 Requires:   python%{pyver}-testtools >= 1.8.0
 Requires:   python%{pyver}-kubernetes >= 5.0.0
 Requires:   python%{pyver}-openshift >= 0.7.0
+Requires:   python%{pyver}-oslo-concurrency >= 3.27.0
 
 %description -n python%{pyver}-%{service}-tests-tempest
 %{common_desc}
