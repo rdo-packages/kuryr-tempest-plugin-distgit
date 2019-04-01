@@ -46,6 +46,30 @@
       "revId": "397704fb14fd10c36020c89ac5c9253790a6bdf4",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d759a3a9_b728c1e4",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-04-01T11:37:25Z",
+      "side": 1,
+      "message": "@chandan ^^ as per upper-constraints, rdopkg reqcheck checks for requirements.txt.\n\nSo buids are as per upper-constraints\nspec should include as per requirements.txt. anyway whatever higher version is there in repo will be installed.",
+      "parentUuid": "17dbd004_0e3f955a",
+      "range": {
+        "startLine": 57,
+        "startChar": 47,
+        "endLine": 57,
+        "endChar": 53
+      },
+      "revId": "397704fb14fd10c36020c89ac5c9253790a6bdf4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
