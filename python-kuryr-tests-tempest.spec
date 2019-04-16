@@ -64,7 +64,7 @@ Requires:   python%{pyver}-oslo-concurrency >= 3.26.0
 Summary:        python-%{service}-tests-tempest documentation
 
 BuildRequires:  python%{pyver}-sphinx
-BuildRequires:  python%{pyver}-oslo-sphinx
+BuildRequires:  python%{pyver}-openstackdocstheme
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the kuryr tempest plugin.
