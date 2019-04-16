@@ -64,7 +64,7 @@ Requires:   python%{pyver}-oslo-concurrency >= 3.26.0
 Summary:        python-%{service}-tests-tempest documentation
 
 BuildRequires:  python%{pyver}-sphinx
-BuildRequires:  python%{pyver}-oslo-sphinx
+BuildRequires:  python%{pyver}-openstackdocstheme
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the kuryr tempest plugin.
@@ -83,7 +83,7 @@ rm -rf %{module}.egg-info
 
 # Generate Docs
 %if 0%{?with_doc}
-%{pyver_bin} setup.py build_sphinx
+sphinx-build-%{pyver} -W -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
