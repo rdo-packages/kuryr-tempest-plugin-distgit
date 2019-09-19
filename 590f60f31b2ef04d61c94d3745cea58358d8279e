@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "676866c1_4d2c958a",
+        "filename": "python-kuryr-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-09-19T03:59:17Z",
+      "side": 1,
+      "message": "can be cleaned now with 0.5.0",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 42
+      },
+      "revId": "590f60f31b2ef04d61c94d3745cea58358d8279e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
