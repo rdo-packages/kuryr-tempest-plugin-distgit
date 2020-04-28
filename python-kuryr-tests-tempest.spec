@@ -1,14 +1,3 @@
-# Macros for py2/py3 compatibility
-%if 0%{?fedora} || 0%{?rhel} > 7
-%global pyver %{python3_pkgversion}
-%else
-%global pyver 2
-%endif
-%global pyver_bin python%{pyver}
-%global pyver_sitelib %python%{pyver}_sitelib
-%global pyver_install %py%{pyver}_install
-%global pyver_build %py%{pyver}_build
-# End of macros for py2/py3 compatibility
 %global service kuryr
 %global plugin kuryr-tempest-plugin
 %global module kuryr_tempest_plugin
@@ -37,34 +26,34 @@ BuildRequires:  openstack-macros
 %description
 %{common_desc}
 
-%package -n python%{pyver}-%{service}-tests-tempest
+%package -n python3-%{service}-tests-tempest
 Summary: %{summary}
-%{?python_provide:%python_provide python%{pyver}-%{service}-tests-tempest}
-BuildRequires:  python%{pyver}-devel
-BuildRequires:  python%{pyver}-pbr
-BuildRequires:  python%{pyver}-setuptools
-BuildRequires:  python%{pyver}-reno
+%{?python_provide:%python_provide python3-%{service}-tests-tempest}
+BuildRequires:  python3-devel
+BuildRequires:  python3-pbr
+BuildRequires:  python3-setuptools
+BuildRequires:  python3-reno
 
-Requires:   python%{pyver}-pbr >= 3.1.1
-Requires:   python%{pyver}-six  >= 1.10.0
-Requires:   python%{pyver}-tempest >= 1:18.0.0
-Requires:   python%{pyver}-testrepository >= 0.0.20
-Requires:   python%{pyver}-oslotest >= 1.10.0
-Requires:   python%{pyver}-os-testr >= 0.8.0
-Requires:   python%{pyver}-testtools >= 1.8.0
-Requires:   python%{pyver}-kubernetes >= 5.0.0
-Requires:   python%{pyver}-openshift >= 0.7.0
-Requires:   python%{pyver}-oslo-concurrency >= 3.26.0
+Requires:   python3-pbr >= 3.1.1
+Requires:   python3-six  >= 1.10.0
+Requires:   python3-tempest >= 1:18.0.0
+Requires:   python3-testrepository >= 0.0.20
+Requires:   python3-oslotest >= 1.10.0
+Requires:   python3-os-testr >= 0.8.0
+Requires:   python3-testtools >= 1.8.0
+Requires:   python3-kubernetes >= 5.0.0
+Requires:   python3-openshift >= 0.7.0
+Requires:   python3-oslo-concurrency >= 3.26.0
 
-%description -n python%{pyver}-%{service}-tests-tempest
+%description -n python3-%{service}-tests-tempest
 %{common_desc}
 
 %if 0%{?with_doc}
 %package -n python-%{service}-tests-tempest-doc
 Summary:        python-%{service}-tests-tempest documentation
 
-BuildRequires:  python%{pyver}-sphinx
-BuildRequires:  python%{pyver}-openstackdocstheme
+BuildRequires:  python3-sphinx
+BuildRequires:  python3-openstackdocstheme
 
 %description -n python-%{service}-tests-tempest-doc
 It contains the documentation for the kuryr tempest plugin.
@@ -79,23 +68,23 @@ It contains the documentation for the kuryr tempest plugin.
 rm -rf %{module}.egg-info
 
 %build
-%{pyver_build}
+%{py3_build}
 
 # Generate Docs
 %if 0%{?with_doc}
-sphinx-build-%{pyver} -W -b html doc/source doc/build/html
+sphinx-build -W -b html doc/source doc/build/html
 # remove the sphinx build leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %install
-%{pyver_install}
+%{py3_install}
 
-%files -n python%{pyver}-%{service}-tests-tempest
+%files -n python3-%{service}-tests-tempest
 %license LICENSE
 %doc README.rst
-%{pyver_sitelib}/%{module}
-%{pyver_sitelib}/*.egg-info
+%{python3_sitelib}/%{module}
+%{python3_sitelib}/*.egg-info
 
 %if 0%{?with_doc}
 %files -n python-%{service}-tests-tempest-doc
