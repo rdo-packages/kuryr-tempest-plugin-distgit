@@ -46,16 +46,17 @@ BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-reno
 
-Requires:   python3-pbr >= 3.1.1
+Requires:   python3-pbr >= 2.0.0
 Requires:   python3-six  >= 1.10.0
 Requires:   python3-tempest >= 1:18.0.0
-Requires:   python3-testrepository >= 0.0.20
-Requires:   python3-oslotest >= 1.10.0
-Requires:   python3-os-testr >= 0.8.0
-Requires:   python3-testtools >= 1.8.0
+Requires:   python3-testrepository >= 0.0.18
+Requires:   python3-oslotest >= 3.2.0
+Requires:   python3-os-testr >= 1.0.0
+Requires:   python3-testtools >= 2.2.0
 Requires:   python3-kubernetes >= 5.0.0
 Requires:   python3-openshift >= 0.7.0
 Requires:   python3-oslo-concurrency >= 3.26.0
+Requires:   python3-netaddr >= 0.7.19
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
