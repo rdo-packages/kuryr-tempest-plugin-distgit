@@ -16,6 +16,24 @@
       "message": "This seems totally unrelated.",
       "revId": "e6dca66b0ee2be1a018bda7c69997f68f8c3d64f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "099796f4_6e4d1047",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-02-25T07:51:51Z",
+      "side": 1,
+      "message": "Yes, it\u0027s due to infra issue",
+      "parentUuid": "07676f62_ae2ef991",
+      "revId": "e6dca66b0ee2be1a018bda7c69997f68f8c3d64f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
