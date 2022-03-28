@@ -110,3 +110,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/kuryr-tempest-plugin/commit/65f6cef16b2f3ca8eed2ba59800096dbad3d53e3
