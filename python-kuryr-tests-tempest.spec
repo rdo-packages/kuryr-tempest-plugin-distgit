@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %global service kuryr
 %global plugin kuryr-tempest-plugin
 %global module kuryr_tempest_plugin
@@ -18,8 +18,8 @@ This package contains Tempest tests to cover the kuryr-kubernetes project. \
 Additionally it provides a plugin to automatically load these tests into Tempest.
 
 Name:       python-%{service}-tests-tempest
-Version:    XXX
-Release:    XXX
+Version:    0.16.0
+Release:    1%{?dist}
 Summary:    Tempest Integration of Kuryr and Kuryr-Kubernetes
 License:    Apache-2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -116,3 +116,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Fri Mar 22 2024 RDO <dev@lists.rdoproject.org> 0.16.0-1
+- Update to 0.16.0
+
